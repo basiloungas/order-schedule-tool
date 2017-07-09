@@ -6,8 +6,10 @@ import {
 } from 'react-router-dom'
 
 import buildStore from './store';
+import Api from './lib/api';
 
-const store = buildStore();
+const ApiClient = new Api();
+const store = buildStore(ApiClient);
 
 export const App = () => (
   <div className="App">
