@@ -1,6 +1,10 @@
 import React from 'react';
+import {Provider} from 'react-redux';
+import buildStore from './store';
 
-export default () => (
+const store = buildStore();
+
+export const App = () => (
   <div className="App">
     <div className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
@@ -10,4 +14,10 @@ export default () => (
       To get started, edit <code>src/App.js</code> and save to reload.
     </p>
   </div>
+);
+
+export default () => (
+  <Provider store={store}>
+    <App />
+  </Provider>
 );
