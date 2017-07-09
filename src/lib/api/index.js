@@ -8,4 +8,12 @@ export default class Api {
       }, 600);
     })
   }
+
+  markAsDelivered() {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(true);
+      }, 600);
+    })
+  }
 }

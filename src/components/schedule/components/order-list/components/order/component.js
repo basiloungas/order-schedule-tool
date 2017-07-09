@@ -11,10 +11,18 @@ import './style.css';
 // TODO: add proper i18n currency formatting
 export const moneyFormatter = (string) => `£${parseFloat(string).toFixed(2)}`;
 
-export default ({data, shopper, markAsDelivered}) => {
+export default (props) => {
+  const {
+    data,
+    shopper,
+    markAsDelivered
+  } = props;
+
+  const isLoading = data.isLoading;
   const isDelivered = !!data.delivered;
   const itemsCount = data.line_items.length
   const totalItemsCount = data.line_items.reduce((acc, item) => acc+= item.quantity, 0)
+  const buttonText = isLoading ? 'Saving...' : 'Deliver';
 
   return (
     <li className="order-item">
@@ -36,8 +44,10 @@ export default ({data, shopper, markAsDelivered}) => {
             bsSize="lg"
             bsStyle={isDelivered ? 'default' : 'success'}
             onClick={() => markAsDelivered(data.id)}
-            disabled={isDelivered}
-          >Deliver</Button>
+            disabled={isDelivered || isLoading}
+          >
+            {buttonText}
+          </Button>
         </Panel>
       </Col>
     </li>

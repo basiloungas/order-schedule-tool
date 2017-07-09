@@ -1,6 +1,7 @@
 import {connect} from 'react-redux';
 
 import Component from './component';
+import {markAsDelivered} from '../../../../../../reducers/schedule/actions';
 
 export const mapStateToProps = (state, ownProps) => {
   return {
@@ -8,26 +9,20 @@ export const mapStateToProps = (state, ownProps) => {
   };
 };
 
-export const mapDispatchToProps = (dispatch, ownProps)  => {
-  return {
-    markAsDelivered: (orderId) => {
-      const {
-        timeslotId,
-        deliveryGroupId,
-      } = ownProps;
+export const mapDispatchToProps = (dispatch, ownProps)  => ({
+  markAsDelivered: (orderId) => {
+    const {
+      timeslotId,
+      deliveryGroupId,
+    } = ownProps;
 
-      const data = {
-        timeslotId,
-        deliveryGroupId,
-        orderId,
-      };
-
-      console.log(data);
-
-      // dispatch(new markAsDelivered(data))
-    },
-  };
-}
+    dispatch(markAsDelivered({
+      timeslotId,
+      deliveryGroupId,
+      orderId,
+    }));
+  }
+});
 
 
 
