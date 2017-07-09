@@ -1,5 +1,10 @@
 import React from 'react';
 import {Provider} from 'react-redux';
+import {
+  BrowserRouter as Router,
+  Route,
+} from 'react-router-dom'
+
 import buildStore from './store';
 
 const store = buildStore();
@@ -18,6 +23,8 @@ export const App = () => (
 
 export default () => (
   <Provider store={store}>
-    <App />
+    <Router>
+      <Route path="/" component={App}/>
+    </Router>
   </Provider>
 );
