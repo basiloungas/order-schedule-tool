@@ -1,0 +1,6 @@
+.timeslot-item{
+}
+
+.timeslot-item > .panel > .panel-body{
+  background: #eee;
+}

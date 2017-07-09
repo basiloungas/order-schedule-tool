@@ -1,0 +1,11 @@
+.order-item{
+  background: #ccc;
+  margin-bottom: 20px;
+}
+
+.order-item__button{
+  display: block;
+  margin: 0;
+  width: 100%;
+  margin-top: 20px;
+}

@@ -1,0 +1,12 @@
+.delivery-group{
+  /*background: #ddd;*/
+}
+
+.delivery-group > .panel{
+  margin-bottom: 0;
+}
+
+.delivery-group > .panel > .panel-body{
+  padding-top: 0;
+  padding-bottom: 0;
+}
