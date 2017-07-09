@@ -7,6 +7,7 @@ import {
 
 import buildStore from './store';
 import Api from './lib/api';
+import Layout from './components/layout';
 
 const ApiClient = new Api();
 const store = buildStore(ApiClient);
@@ -26,7 +27,9 @@ export const App = () => (
 export default () => (
   <Provider store={store}>
     <Router>
-      <Route path="/" component={App}/>
+      <Layout>
+        <Route path="/" component={App}/>
+      </Layout>
     </Router>
   </Provider>
 );
