@@ -1,11 +1,15 @@
-import {createStore, applyMiddleware} from 'redux';
+import {createStore, applyMiddleware, compose} from 'redux';
 import thunk from 'redux-thunk';
 import reducers from './reducers';
 
-export default function buildStore() {
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+
 export default function buildStore(apiClient) {
   return createStore(
     reducers,
-    applyMiddleware(thunk.withExtraArgument({apiClient}))
+    composeEnhancers(
+      applyMiddleware(thunk.withExtraArgument({apiClient}))
+    ),
   );
 }
