@@ -1,0 +1,835 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components > Schedule > Container renders the loader when "data" is null 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <lifecycle(branch(Component))
+    data={null}
+    error={null}
+    fetchSchedule={[Function]}
+    isLoading={false}
+    store={
+        Object {
+            "clearActions": [Function],
+            "dispatch": [Function],
+            "getActions": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+          }
+    }
+    storeSubscription={
+        Subscription {
+            "listeners": Object {
+              "notify": [Function],
+            },
+            "onStateChange": [Function],
+            "parentSub": undefined,
+            "store": Object {
+              "clearActions": [Function],
+              "dispatch": [Function],
+              "getActions": [Function],
+              "getState": [Function],
+              "replaceReducer": [Function],
+              "subscribe": [Function],
+            },
+            "unsubscribe": null,
+          }
+    }
+/>,
+  "nodes": Array [
+    <lifecycle(branch(Component))
+      data={null}
+      error={null}
+      fetchSchedule={[Function]}
+      isLoading={false}
+      store={
+            Object {
+                  "clearActions": [Function],
+                  "dispatch": [Function],
+                  "getActions": [Function],
+                  "getState": [Function],
+                  "replaceReducer": [Function],
+                  "subscribe": [Function],
+                }
+      }
+      storeSubscription={
+            Subscription {
+                  "listeners": Object {
+                    "notify": [Function],
+                  },
+                  "onStateChange": [Function],
+                  "parentSub": undefined,
+                  "store": Object {
+                    "clearActions": [Function],
+                    "dispatch": [Function],
+                    "getActions": [Function],
+                    "getState": [Function],
+                    "replaceReducer": [Function],
+                    "subscribe": [Function],
+                  },
+                  "unsubscribe": null,
+                }
+      }
+/>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Connect(lifecycle(branch(Component)))
+        store={
+                Object {
+                        "clearActions": [Function],
+                        "dispatch": [Function],
+                        "getActions": [Function],
+                        "getState": [Function],
+                        "replaceReducer": [Function],
+                        "subscribe": [Function],
+                      }
+        }
+/>,
+      "_debugID": 9,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Connect {
+        "_reactInternalInstance": [Circular],
+        "context": Object {
+          "store": undefined,
+          "storeSubscription": undefined,
+        },
+        "notifyNestedSubs": [Function],
+        "props": Object {
+          "store": Object {
+            "clearActions": [Function],
+            "dispatch": [Function],
+            "getActions": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+          },
+        },
+        "propsMode": true,
+        "refs": Object {},
+        "renderCount": 0,
+        "selector": Object {
+          "error": null,
+          "props": Object {
+            "data": null,
+            "error": null,
+            "fetchSchedule": [Function],
+            "isLoading": false,
+            "store": Object {
+              "clearActions": [Function],
+              "dispatch": [Function],
+              "getActions": [Function],
+              "getState": [Function],
+              "replaceReducer": [Function],
+              "subscribe": [Function],
+            },
+          },
+          "run": [Function],
+          "shouldComponentUpdate": false,
+        },
+        "setWrappedInstance": [Function],
+        "state": Object {},
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "subscription": Subscription {
+          "listeners": Object {
+            "notify": [Function],
+          },
+          "onStateChange": [Function],
+          "parentSub": undefined,
+          "store": Object {
+            "clearActions": [Function],
+            "dispatch": [Function],
+            "getActions": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+          },
+          "unsubscribe": null,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+        "version": 2,
+      },
+      "_mountOrder": 5,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <lifecycle(branch(Component))
+          data={null}
+          error={null}
+          fetchSchedule={[Function]}
+          isLoading={false}
+          store={
+                    Object {
+                              "clearActions": [Function],
+                              "dispatch": [Function],
+                              "getActions": [Function],
+                              "getState": [Function],
+                              "replaceReducer": [Function],
+                              "subscribe": [Function],
+                            }
+          }
+          storeSubscription={
+                    Subscription {
+                              "listeners": Object {
+                                "notify": [Function],
+                              },
+                              "onStateChange": [Function],
+                              "parentSub": undefined,
+                              "store": Object {
+                                "clearActions": [Function],
+                                "dispatch": [Function],
+                                "getActions": [Function],
+                                "getState": [Function],
+                                "replaceReducer": [Function],
+                                "subscribe": [Function],
+                              },
+                              "unsubscribe": null,
+                            }
+          }
+/>,
+        "_debugID": 10,
+        "_renderedOutput": <lifecycle(branch(Component))
+          data={null}
+          error={null}
+          fetchSchedule={[Function]}
+          isLoading={false}
+          store={
+                    Object {
+                              "clearActions": [Function],
+                              "dispatch": [Function],
+                              "getActions": [Function],
+                              "getState": [Function],
+                              "replaceReducer": [Function],
+                              "subscribe": [Function],
+                            }
+          }
+          storeSubscription={
+                    Subscription {
+                              "listeners": Object {
+                                "notify": [Function],
+                              },
+                              "onStateChange": [Function],
+                              "parentSub": undefined,
+                              "store": Object {
+                                "clearActions": [Function],
+                                "dispatch": [Function],
+                                "getActions": [Function],
+                                "getState": [Function],
+                                "replaceReducer": [Function],
+                                "subscribe": [Function],
+                              },
+                              "unsubscribe": null,
+                            }
+          }
+/>,
+      },
+      "_renderedNodeType": 1,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Connect(lifecycle(branch(Component)))
+    store={
+        Object {
+            "clearActions": [Function],
+            "dispatch": [Function],
+            "getActions": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+          }
+    }
+/>,
+}
+`;
+
+exports[`components > Schedule > Container renders the loader when "data" is null 2`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <lifecycle(branch(Component))
+    data={null}
+    error={null}
+    fetchSchedule={[Function]}
+    isLoading={false}
+    store={
+        Object {
+            "clearActions": [Function],
+            "dispatch": [Function],
+            "getActions": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+          }
+    }
+    storeSubscription={
+        Subscription {
+            "listeners": Object {
+              "notify": [Function],
+            },
+            "onStateChange": [Function],
+            "parentSub": undefined,
+            "store": Object {
+              "clearActions": [Function],
+              "dispatch": [Function],
+              "getActions": [Function],
+              "getState": [Function],
+              "replaceReducer": [Function],
+              "subscribe": [Function],
+            },
+            "unsubscribe": null,
+          }
+    }
+/>,
+  "nodes": Array [
+    <lifecycle(branch(Component))
+      data={null}
+      error={null}
+      fetchSchedule={[Function]}
+      isLoading={false}
+      store={
+            Object {
+                  "clearActions": [Function],
+                  "dispatch": [Function],
+                  "getActions": [Function],
+                  "getState": [Function],
+                  "replaceReducer": [Function],
+                  "subscribe": [Function],
+                }
+      }
+      storeSubscription={
+            Subscription {
+                  "listeners": Object {
+                    "notify": [Function],
+                  },
+                  "onStateChange": [Function],
+                  "parentSub": undefined,
+                  "store": Object {
+                    "clearActions": [Function],
+                    "dispatch": [Function],
+                    "getActions": [Function],
+                    "getState": [Function],
+                    "replaceReducer": [Function],
+                    "subscribe": [Function],
+                  },
+                  "unsubscribe": null,
+                }
+      }
+/>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Connect(lifecycle(branch(Component)))
+        store={
+                Object {
+                        "clearActions": [Function],
+                        "dispatch": [Function],
+                        "getActions": [Function],
+                        "getState": [Function],
+                        "replaceReducer": [Function],
+                        "subscribe": [Function],
+                      }
+        }
+/>,
+      "_debugID": 13,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Connect {
+        "_reactInternalInstance": [Circular],
+        "context": Object {
+          "store": undefined,
+          "storeSubscription": undefined,
+        },
+        "notifyNestedSubs": [Function],
+        "props": Object {
+          "store": Object {
+            "clearActions": [Function],
+            "dispatch": [Function],
+            "getActions": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+          },
+        },
+        "propsMode": true,
+        "refs": Object {},
+        "renderCount": 0,
+        "selector": Object {
+          "error": null,
+          "props": Object {
+            "data": null,
+            "error": null,
+            "fetchSchedule": [Function],
+            "isLoading": false,
+            "store": Object {
+              "clearActions": [Function],
+              "dispatch": [Function],
+              "getActions": [Function],
+              "getState": [Function],
+              "replaceReducer": [Function],
+              "subscribe": [Function],
+            },
+          },
+          "run": [Function],
+          "shouldComponentUpdate": false,
+        },
+        "setWrappedInstance": [Function],
+        "state": Object {},
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "subscription": Subscription {
+          "listeners": Object {
+            "notify": [Function],
+          },
+          "onStateChange": [Function],
+          "parentSub": undefined,
+          "store": Object {
+            "clearActions": [Function],
+            "dispatch": [Function],
+            "getActions": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+          },
+          "unsubscribe": null,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+        "version": 2,
+      },
+      "_mountOrder": 7,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <lifecycle(branch(Component))
+          data={null}
+          error={null}
+          fetchSchedule={[Function]}
+          isLoading={false}
+          store={
+                    Object {
+                              "clearActions": [Function],
+                              "dispatch": [Function],
+                              "getActions": [Function],
+                              "getState": [Function],
+                              "replaceReducer": [Function],
+                              "subscribe": [Function],
+                            }
+          }
+          storeSubscription={
+                    Subscription {
+                              "listeners": Object {
+                                "notify": [Function],
+                              },
+                              "onStateChange": [Function],
+                              "parentSub": undefined,
+                              "store": Object {
+                                "clearActions": [Function],
+                                "dispatch": [Function],
+                                "getActions": [Function],
+                                "getState": [Function],
+                                "replaceReducer": [Function],
+                                "subscribe": [Function],
+                              },
+                              "unsubscribe": null,
+                            }
+          }
+/>,
+        "_debugID": 14,
+        "_renderedOutput": <lifecycle(branch(Component))
+          data={null}
+          error={null}
+          fetchSchedule={[Function]}
+          isLoading={false}
+          store={
+                    Object {
+                              "clearActions": [Function],
+                              "dispatch": [Function],
+                              "getActions": [Function],
+                              "getState": [Function],
+                              "replaceReducer": [Function],
+                              "subscribe": [Function],
+                            }
+          }
+          storeSubscription={
+                    Subscription {
+                              "listeners": Object {
+                                "notify": [Function],
+                              },
+                              "onStateChange": [Function],
+                              "parentSub": undefined,
+                              "store": Object {
+                                "clearActions": [Function],
+                                "dispatch": [Function],
+                                "getActions": [Function],
+                                "getState": [Function],
+                                "replaceReducer": [Function],
+                                "subscribe": [Function],
+                              },
+                              "unsubscribe": null,
+                            }
+          }
+/>,
+      },
+      "_renderedNodeType": 1,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Connect(lifecycle(branch(Component)))
+    store={
+        Object {
+            "clearActions": [Function],
+            "dispatch": [Function],
+            "getActions": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+          }
+    }
+/>,
+}
+`;
+
+exports[`components > Schedule > Container renders the loader when "isLoading" 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <lifecycle(branch(Component))
+    data={Array []}
+    error={null}
+    fetchSchedule={[Function]}
+    isLoading={false}
+    store={
+        Object {
+            "clearActions": [Function],
+            "dispatch": [Function],
+            "getActions": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+          }
+    }
+    storeSubscription={
+        Subscription {
+            "listeners": Object {
+              "notify": [Function],
+            },
+            "onStateChange": [Function],
+            "parentSub": undefined,
+            "store": Object {
+              "clearActions": [Function],
+              "dispatch": [Function],
+              "getActions": [Function],
+              "getState": [Function],
+              "replaceReducer": [Function],
+              "subscribe": [Function],
+            },
+            "unsubscribe": null,
+          }
+    }
+/>,
+  "nodes": Array [
+    <lifecycle(branch(Component))
+      data={Array []}
+      error={null}
+      fetchSchedule={[Function]}
+      isLoading={false}
+      store={
+            Object {
+                  "clearActions": [Function],
+                  "dispatch": [Function],
+                  "getActions": [Function],
+                  "getState": [Function],
+                  "replaceReducer": [Function],
+                  "subscribe": [Function],
+                }
+      }
+      storeSubscription={
+            Subscription {
+                  "listeners": Object {
+                    "notify": [Function],
+                  },
+                  "onStateChange": [Function],
+                  "parentSub": undefined,
+                  "store": Object {
+                    "clearActions": [Function],
+                    "dispatch": [Function],
+                    "getActions": [Function],
+                    "getState": [Function],
+                    "replaceReducer": [Function],
+                    "subscribe": [Function],
+                  },
+                  "unsubscribe": null,
+                }
+      }
+/>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Connect(lifecycle(branch(Component)))
+        store={
+                Object {
+                        "clearActions": [Function],
+                        "dispatch": [Function],
+                        "getActions": [Function],
+                        "getState": [Function],
+                        "replaceReducer": [Function],
+                        "subscribe": [Function],
+                      }
+        }
+/>,
+      "_debugID": 5,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Connect {
+        "_reactInternalInstance": [Circular],
+        "context": Object {
+          "store": undefined,
+          "storeSubscription": undefined,
+        },
+        "notifyNestedSubs": [Function],
+        "props": Object {
+          "store": Object {
+            "clearActions": [Function],
+            "dispatch": [Function],
+            "getActions": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+          },
+        },
+        "propsMode": true,
+        "refs": Object {},
+        "renderCount": 0,
+        "selector": Object {
+          "error": null,
+          "props": Object {
+            "data": Array [],
+            "error": null,
+            "fetchSchedule": [Function],
+            "isLoading": false,
+            "store": Object {
+              "clearActions": [Function],
+              "dispatch": [Function],
+              "getActions": [Function],
+              "getState": [Function],
+              "replaceReducer": [Function],
+              "subscribe": [Function],
+            },
+          },
+          "run": [Function],
+          "shouldComponentUpdate": false,
+        },
+        "setWrappedInstance": [Function],
+        "state": Object {},
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "subscription": Subscription {
+          "listeners": Object {
+            "notify": [Function],
+          },
+          "onStateChange": [Function],
+          "parentSub": undefined,
+          "store": Object {
+            "clearActions": [Function],
+            "dispatch": [Function],
+            "getActions": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+          },
+          "unsubscribe": null,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+        "version": 2,
+      },
+      "_mountOrder": 3,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <lifecycle(branch(Component))
+          data={Array []}
+          error={null}
+          fetchSchedule={[Function]}
+          isLoading={false}
+          store={
+                    Object {
+                              "clearActions": [Function],
+                              "dispatch": [Function],
+                              "getActions": [Function],
+                              "getState": [Function],
+                              "replaceReducer": [Function],
+                              "subscribe": [Function],
+                            }
+          }
+          storeSubscription={
+                    Subscription {
+                              "listeners": Object {
+                                "notify": [Function],
+                              },
+                              "onStateChange": [Function],
+                              "parentSub": undefined,
+                              "store": Object {
+                                "clearActions": [Function],
+                                "dispatch": [Function],
+                                "getActions": [Function],
+                                "getState": [Function],
+                                "replaceReducer": [Function],
+                                "subscribe": [Function],
+                              },
+                              "unsubscribe": null,
+                            }
+          }
+/>,
+        "_debugID": 6,
+        "_renderedOutput": <lifecycle(branch(Component))
+          data={Array []}
+          error={null}
+          fetchSchedule={[Function]}
+          isLoading={false}
+          store={
+                    Object {
+                              "clearActions": [Function],
+                              "dispatch": [Function],
+                              "getActions": [Function],
+                              "getState": [Function],
+                              "replaceReducer": [Function],
+                              "subscribe": [Function],
+                            }
+          }
+          storeSubscription={
+                    Subscription {
+                              "listeners": Object {
+                                "notify": [Function],
+                              },
+                              "onStateChange": [Function],
+                              "parentSub": undefined,
+                              "store": Object {
+                                "clearActions": [Function],
+                                "dispatch": [Function],
+                                "getActions": [Function],
+                                "getState": [Function],
+                                "replaceReducer": [Function],
+                                "subscribe": [Function],
+                              },
+                              "unsubscribe": null,
+                            }
+          }
+/>,
+      },
+      "_renderedNodeType": 1,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Connect(lifecycle(branch(Component)))
+    store={
+        Object {
+            "clearActions": [Function],
+            "dispatch": [Function],
+            "getActions": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+          }
+    }
+/>,
+}
+`;
