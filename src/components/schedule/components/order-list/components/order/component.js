@@ -6,6 +6,8 @@ import {
   Label,
 } from 'react-bootstrap';
 
+import {SmallLoader} from '../../../../../loader';
+
 import './style.css';
 
 // TODO: add proper i18n currency formatting
@@ -47,6 +49,7 @@ export default (props) => {
             disabled={isDelivered || isLoading}
           >
             {buttonText}
+            { isLoading ? <SmallLoader className="asds" /> : null }
           </Button>
         </Panel>
       </Col>
